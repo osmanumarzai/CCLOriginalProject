@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tkxel.admin.ordertaking">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+        https://www.androidauthority.com/get-location-address-android-app-628764/
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".AllClass.SplashScreen"
+            android:label="@string/title_activity_maps"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllClass.ListviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".MapsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Loyalty.ScannerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".Loyalty.SceenActivity_Class"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".Loyalty.Loyalty_ProductsCutomer"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.MainActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.DeepFrezerClassList"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.Add_DeepFrezer"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.All_Order_List_Offline"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.LoginScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.Main_View"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.AllCustomer_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.TestClass"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.All_PaymentList_Offline"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.All_PaymentList"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.All_Order_List"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.Main_View_Offline"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.Take_Order_Activity_Offline"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.View_Order_Activity_Offline"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.All_PriceList"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.Add_Payment_Class"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.Take_Order_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".AllClass.View_Order_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.OrderDescription"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.All_TargetList"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.GraphActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".AllClass.CustomerListActivity"
+            android:label="@string/title_activity_extra1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.ProductAvailAddActivity"
+            android:label="@string/title_activity_extra1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.CustomerAddActivity"
+            android:label="@string/title_activity_add_customer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.MerchandiserListActivity"
+            android:label="@string/title_activity_merchandiser_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.MerchandiserAddActivity"
+            android:label="@string/title_activity_merchandiser_add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.SellingPatternActivity"
+            android:label="@string/title_activity_selling_pattern"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.MerchandiserVisitAddActivity"
+            android:label="@string/title_activity_merchandiser_target"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllClass.ProductPlacementVisibilityAddActivity"
+            android:label="@string/title_activity_product_placement_visibility"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".AllClass.ProductAdvertisementAddActivity"
+            android:label="@string/title_activity_product_advertisement_add"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <!--<activity-->
+            <!--android:name=".AllClass.Main1"-->
+            <!--android:label="@string/title_activity_main1"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
+    </application>
+
+</manifest>

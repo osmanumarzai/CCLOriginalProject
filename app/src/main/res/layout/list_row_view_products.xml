@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:minHeight="40dp"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:weightSum="99">
+
+    <TextView
+        android:id="@+id/p_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_toLeftOf="@+id/p_price"
+        android:layout_weight="33"
+        android:gravity="center|left"
+        android:text="Quantity 50"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/p_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_weight="33"
+        android:gravity="center"
+        android:minWidth="50dp"
+        android:text="50"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/p_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_weight="33"
+        android:gravity="center"
+        android:minWidth="100dp"
+        android:text="50"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

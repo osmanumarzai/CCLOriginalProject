@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="mywhitetext">#000</color>
+
+    <!--  <color name="base_color_bg">#f4f4f4</color>
+      <color name="white">#fff</color>-->
+
+
+    <color name="new_blue_1">#1d6dbb</color>
+
+    <color name="txt_customer_color">#616161</color>
+    <color name="white_trans">#fff</color>
+
+    <color name="txt_color">#fff</color>
+
+
+    <color name="txt_color_bg_white">#000</color>
+
+    <color name="base_color_bg">#fff</color>
+    <color name="white">#fff</color>
+    <color name="p_he1">#3f3a3a</color>
+
+
+
+
+    <color name="starNotSelected">#FF4081</color>
+    <color name="starPartiallySelected">#FF4081</color>
+    <color name="starFullySelected">#FF4081</color>
+
+    <color name="darkBlue">#004a80</color>
+
+
+    <color name="black">#000000</color>
+    <color name="lightBlue">#1d7bbb</color>
+
+
+    <color name="text_red">#a72019</color>
+
+    <color name="text_blue">#0207d4</color>
+
+    <color name="bg_bluedark">#004a80</color>
+
+    <color name="bg_gray">#bbbbbc</color>
+    <color name="gray1">#a9a9a9</color>
+
+    <color name="orange_">#f26522</color>
+    <color name="green_">#4dbb41</color>
+
+
+
+    <color name="voucher_bg">#bb1d3f</color>
+
+
+
+    <color name="basecolor_header">#4B0082</color>
+
+    <color name="heardercolor">#4B0082</color>
+
+    <color name="basecolor_1">#d5ff0000</color>
+    <color name="basecolor_2">#d5ff0000</color>
+
+    <color name="basecolor_btn">#ff0000</color>
+
+
+    <color name="basecolor_header_indo">#4B0082</color>
+    <color name="basecolor_1_indo">#d54B0082</color>
+    <color name="basecolor_2_indo">#d54B0082</color>
+
+    <color name="basecolor_btn_indo">#4B0082</color>
+
+    <color name="text_gray">#7b7b7b</color>
+
+    <!-- <color name="basecolor_header">#616161</color>
+     <color name="basecolor_1">#c4c4c4</color>
+     <color name="basecolor_2">#c6c4c4c4</color>
+
+     <color name="basecolor_btn">#616161</color>-->
+
+
+
+
+
+
+</resources>

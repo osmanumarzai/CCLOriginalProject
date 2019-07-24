@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_02">
+
+    <RelativeLayout
+        android:id="@+id/mainheader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/basecolor_header"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgnew_order"
+            android:layout_toRightOf="@+id/add_new_user"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="Stock List"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/add_new_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:src="@drawable/left_arrow" />
+
+
+        <ImageView
+            android:id="@+id/imgnew_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/add_plus" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/swipe_refresh_layout"
+        android:layout_alignStart="@+id/swipe_refresh_layout"
+        android:layout_below="@+id/mainheader">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@+id/tv_city"
+            android:gravity="center|left"
+            android:minLines="1"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="13sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:minLines="1"
+            android:text="Customer"
+            android:textColor="#000"
+            android:textSize="13sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_0"
+        android:layout_margin="5dp">
+
+        <ListView
+            android:id="@+id/main_lisrview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/text_gray"
+            android:dividerHeight="1dp"
+            android:focusable="false" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:padding="5dip">
+
+
+    <TextView
+        android:id="@+id/p_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/p_price"
+        android:gravity="center|left"
+        android:text="Quantity 50"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/p_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/p_price"
+        android:gravity="center"
+        android:minWidth="50dp"
+        android:text="50"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/p_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:minWidth="50dp"
+        android:text="50"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/p_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/p_price"
+        android:background="#0a6413"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:minWidth="40dp"
+        android:text="+"
+
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etp_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/p_minus"
+        android:layout_toRightOf="@+id/p_plus"
+        android:background="#fff"
+
+        android:gravity="center"
+        android:inputType="number"
+        android:minHeight="25dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="14sp">
+
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/p_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:minWidth="40dp"
+        android:text="-"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone">
+
+    </CheckBox>
+
+
+</RelativeLayout>

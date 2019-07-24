@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Order Taking</string>
+    <string name="title_activity_maps">Order Taking</string>
+    <string name="title_activity_extra1">Extra1</string>
+    <string name="title_activity_add_customer">AddCustomerActivity</string>
+    <string name="btn_Submit">Submit</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_CNIC">CNIC</string>
+    <string name="hint_Mobile">Mobile#</string>
+    <string name="hint_password">Password</string>
+
+    <string name="hint_FatherName">Father Name</string>
+    <string name="hint_AddressArea">Address Area</string>
+    <string name="hint_DOB">DOB</string>
+    <string name="hint_ShopName">Shop Name</string>
+    <string name="hint_ShopKeeperName">Shop Keeper Name</string>
+    <string name="hint_ContactNum">Contact Num</string>
+
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="title_activity_merchandiser_list">MerchandiserListActivity</string>
+    <string name="title_activity_merchandiser_add">MerchandiserAddActivity</string>
+
+
+    <string name="err_msg_name">Enter Name</string>
+    <string name="err_msg_fathername">Enter Father Name</string>
+    <string name="err_msg_cnic">Enter CNIC</string>
+    <string name="err_msg_mobile">Enter Mobile Number</string>
+
+
+    <string name="err_msg_addressarea">Enter AddressArea</string>
+    <string name="err_msg_city">Enter City</string>
+    <string name="err_msg_dob">Enter Date Of Birth</string>
+    <string name="err_msg_shopname">Enter Shop Name</string>
+    <string name="err_msg_shopkeepername">Enter ShopKeeper Name</string>
+    <string name="err_msg_contactnum">Enter Contact Number</string>
+
+    <string name="channels_prompt">Choose a Channel</string>
+
+    <string name="store_prompt">Choose a Store</string>
+
+
+    <string-array name="channels_array">
+        <item>Pharmacy</item>
+        <item>General Trade</item>
+        <item>Medical &amp; General Trade </item>
+        <item>Mart</item>
+    </string-array>
+
+    <string-array name="store_array">
+        <item>Store-1</item>
+        <item>Store-2</item>
+        <item>Store-3</item>
+    </string-array>
+
+
+    <string name="title_activity_product_advertisement_add">ProductAdvertisementAddActivity</string>
+    <string name="title_activity_selling_pattern">SellingPattern</string>
+    <string name="title_activity_dumb">dumb</string>
+    <string name="title_activity_merchandiser_target">MerchandiserTargetActivity</string>
+    <string name="title_activity_product_placement_visibility">ProductPlacementVisibilityActivity
+    </string>
+    <string name="title_activity_main1">Main1</string>
+    <string name="hint_City">City</string>
+    <string name="hint_Area">Area</string>
+    <string name="err_msg_area">Enter City</string>
+    <string name="city_prompt">Choose City</string>
+    <string name="area_prompt">Choose Area</string>
+
+</resources>
